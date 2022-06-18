@@ -4,9 +4,9 @@ namespace TwitchClient.Domain.Users;
 
 public class User
 {
-    public BraodcasterType BraodcasterType { get; set; }
+    public BroadcasterType BraodcasterType { get; set; }
     public string? Description { get; set; }
-     public string? DisplayName { get; set; }
+    public string? DisplayName { get; set; }
     public string? Id { get; set; }
     public string? Login { get; set; }
     public string? OfflineImageUrl { get; set; }
