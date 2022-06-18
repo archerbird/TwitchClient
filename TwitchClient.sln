@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE0400E0-4385-4D2D-B15F-DE5FB57064B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchClient.Application", "src\TwitchClient.Application\TwitchClient.Application.csproj", "{614BD654-5634-4D63-B5EB-DE800DA9F3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchClient.ConsoleApp", "src\TwitchClient.ConsoleApp\TwitchClient.ConsoleApp.csproj", "{454B4D92-FBC3-4952-A337-85B56976C5C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchClient.Domain", "src\TwitchClient.Domain\TwitchClient.Domain.csproj", "{4316514C-6489-4D60-9AC8-80D2839FCBC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchClient.Infrastructure", "src\TwitchClient.Infrastructure\TwitchClient.Infrastructure.csproj", "{3337270E-64A3-4609-8289-8A4EA0872089}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{614BD654-5634-4D63-B5EB-DE800DA9F3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614BD654-5634-4D63-B5EB-DE800DA9F3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614BD654-5634-4D63-B5EB-DE800DA9F3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614BD654-5634-4D63-B5EB-DE800DA9F3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454B4D92-FBC3-4952-A337-85B56976C5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454B4D92-FBC3-4952-A337-85B56976C5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454B4D92-FBC3-4952-A337-85B56976C5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454B4D92-FBC3-4952-A337-85B56976C5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4316514C-6489-4D60-9AC8-80D2839FCBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4316514C-6489-4D60-9AC8-80D2839FCBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4316514C-6489-4D60-9AC8-80D2839FCBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4316514C-6489-4D60-9AC8-80D2839FCBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3337270E-64A3-4609-8289-8A4EA0872089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3337270E-64A3-4609-8289-8A4EA0872089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3337270E-64A3-4609-8289-8A4EA0872089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3337270E-64A3-4609-8289-8A4EA0872089}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{614BD654-5634-4D63-B5EB-DE800DA9F3B9} = {DE0400E0-4385-4D2D-B15F-DE5FB57064B2}
+		{454B4D92-FBC3-4952-A337-85B56976C5C4} = {DE0400E0-4385-4D2D-B15F-DE5FB57064B2}
+		{4316514C-6489-4D60-9AC8-80D2839FCBC2} = {DE0400E0-4385-4D2D-B15F-DE5FB57064B2}
+		{3337270E-64A3-4609-8289-8A4EA0872089} = {DE0400E0-4385-4D2D-B15F-DE5FB57064B2}
+	EndGlobalSection
+EndGlobal
