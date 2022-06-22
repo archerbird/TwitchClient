@@ -4,7 +4,7 @@ namespace TwitchClient.Domain.Users;
 
 public class User
 {
-    public BroadcasterType BraodcasterType { get; set; }
+    public BroadcasterType BroadcasterType { get; set; }
     public string? Description { get; set; }
     public string? DisplayName { get; set; }
     public string? Id { get; set; }
@@ -13,6 +13,6 @@ public class User
     public string? ProfileImageUrl { get; set; }
     public UserType Type { get; set; }
     public int ViewCount { get; set; }
-    public Email Email { get; set; }
+    public Email? Email { get; set; }
     public DateTime? CreatedAt { get; set; }
 }

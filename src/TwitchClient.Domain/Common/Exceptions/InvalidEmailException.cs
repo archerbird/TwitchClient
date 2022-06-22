@@ -6,4 +6,12 @@ public class InvalidEmailException : Exception
     : base(message)
     {
     }
+
+    public InvalidEmailException() : base()
+    {
+    }
+
+    public InvalidEmailException(string? message, Exception? innerException) : base(message, innerException)
+    {
+    }
 }

@@ -1,15 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <ItemGroup>
-    <ProjectReference Include="..\TwitchClient.Application\TwitchClient.Application.csproj" />
-    <ProjectReference Include="..\TwitchClient.Infrastructure\TwitchClient.Infrastructure.csproj" />
-  </ItemGroup>
-
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
+	<ItemGroup>
+		<ProjectReference Include="..\TwitchClient.Application\TwitchClient.Application.csproj"/>
+		<ProjectReference Include="..\TwitchClient.Infrastructure\TwitchClient.Infrastructure.csproj"/>
+	</ItemGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UserSecretsId>69a297f9-6625-49b9-9fea-35d086156376</UserSecretsId>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0"/>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1"/>
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1"/>
+		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1"/>
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="appsettings.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+	</ItemGroup>
 </Project>

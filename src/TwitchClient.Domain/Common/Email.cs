@@ -7,7 +7,7 @@ public struct Email
     {
         var emailParts = emailAddress.Trim().Split('@');
 
-        if (emailParts.Count() != 2)
+        if (emailParts.Length != 2)
         {
             throw new EmailParsingException(emailAddress, "Email did not contain an '@domain' part.");
         }
