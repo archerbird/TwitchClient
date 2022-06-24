@@ -22,7 +22,7 @@ internal class UserService : IUsersService
         //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", (await _authService.GetToken(cancellationToken)).Token))
         _client = client;
     }
-    public async Task<User> GetUserByLogin(string loginName, CancellationToken cancellationToken)
+    public async Task<User?> GetUserByLogin(string loginName, CancellationToken cancellationToken)
     {
         var request = new HttpRequestBuilder()
             .WithMethod(HttpMethod.Get)

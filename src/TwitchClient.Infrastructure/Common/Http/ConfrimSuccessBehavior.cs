@@ -5,12 +5,12 @@ namespace TwitchClient.Infrastructure.Common.Http
     {
         public Task<bool> Apply(HttpResponseMessage response, CancellationToken cancellationToken)
         {
-            if (response.StatusCode == HttpStatusCode.Unauthorized)
+            if (response.StatusCode != HttpStatusCode.OK)
             {
-
+                return Task.FromResult(true);
             }
 
-            return Task.FromResult(true);
+            return Task.FromResult(false);
         }
     }
 }
